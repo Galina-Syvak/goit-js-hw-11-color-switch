@@ -18,7 +18,6 @@ function onStartBtnClick() {
 
   timerId = setInterval(() => {
     refs.bodyEl.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)];
-    console.log(colors[randomIntegerFromInterval(0, colors.length - 1)]);
   }, 1000);
 }
 
